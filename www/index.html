@@ -1,24 +1,5 @@
 <!DOCTYPE html>
-<!--
-    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
 
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
 
 <head>
@@ -38,23 +19,39 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    
+    <title>What's for Dinner</title>
 </head>
 
 <body>
-    <div class="app">
-        <h1>What's for Dinner</h1>
-        <div id="deviceready" class="blink">
-            <p>Randomly select a tasty, easy to recreate meal!</p>
+        <div class="callout large primary">
+            <div class="row column text-center">
+                <h1>What's for Dinner?</h1>
+            </div>
         </div>
-        <button type="button">Let's Eat!</button>
-    </div>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
+    
+        <div class="img">
+            <img src="img/plate4.jpg"/>
+        </div>
+        <div class="main">
+            <div id="explanation" class="blink">
+                <h3>Randomly receive a tasty, easy to recreate meal!</h3>
+            </div>
+        </div>
+
+        <div class="start">
+            <a href="pages/all_or_sort_by_cuisine_type.html" class ="button expand">Lets Eat!</a>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/foundation.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+   
 </body>
+    
 
 </html>

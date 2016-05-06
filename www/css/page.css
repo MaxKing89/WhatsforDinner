@@ -1,0 +1,32 @@
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    
+    font-family:'Libre Baskerville', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+    
+}
+
+/************************************************MEDIA QUERY**********************************************/
+
+    
+    @media all and (orientation: landscape) {
+        .img {
+            max-width: 50%;
+            height:auto;
+            display: block;
+            margin: 0 auto;
+            }
+    }
