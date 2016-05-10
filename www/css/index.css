@@ -10,6 +10,7 @@ body {
 
 
     background-attachment:fixed;
+    background-color: ghostwhite;
     font-family:'Libre Baskerville', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
@@ -113,6 +114,11 @@ button.expand, .button.expand {
 
 .button:hover {
     background-color: forestgreen;
+}
+
+.callout h1 {
+    color:aliceblue;
+    font-size: 4em;
 }
 
 
