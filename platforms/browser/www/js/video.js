@@ -2,7 +2,7 @@ var allVideoArr = [
  {
     name: 'Pizza Bread Bowl',
     src: 'Eh5_ssE_BTY',
-    ing:['cheese','1 bread bowl','1 cup marinara sauce','8 ounces fresh mozzarella','6 ounces pepperoni','½ sliced onion','½ cup basil','1 cup cooked sausage','1 sliced green bell pepper','1 cup shredded white cheddar'],
+    ing:['Cheese','1 bread bowl','1 cup marinara sauce','8 ounces fresh mozzarella','6 ounces pepperoni','½ sliced onion','½ cup basil','1 cup cooked sausage','1 sliced green bell pepper','1 cup shredded white cheddar'],
     cuisineType: 'Italian'
  },
  {
@@ -23,7 +23,7 @@ var allVideoArr = [
 var randomResultSet = allVideoArr[Math.floor(Math.random()*allVideoArr.length)];
 
 var getName = randomResultSet.name;
-$('.name').html("<h1>Dish Name - " + getName + "</h1>");
+$('.name').html("<h1>" + getName + "</h1>");
 
 var getCuisineType = randomResultSet.cuisineType;
 $('.cuisine-type').html("<h2>Cuisine Type - " + getCuisineType + "</h2>")

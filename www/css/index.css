@@ -108,17 +108,21 @@ button.expand, .button.expand {
 }
 
 .button {
-    background-color: deepskyblue;
-    border-color: firebrick
+    background-color: darkgray;
+    border-color: black;
 }
 
 .button:hover {
-    background-color: forestgreen;
+    background-color: black;
 }
 
 .callout h1 {
     color:aliceblue;
-    font-size: 4em;
+    font-size: 2.5em;
+}
+
+.callout.large{
+    padding: 1.5em;
 }
 
 
