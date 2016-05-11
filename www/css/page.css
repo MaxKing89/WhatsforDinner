@@ -15,11 +15,75 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Baskerville', serif;
 }
 
-.container {
+/******************Classes**********************/
+
+.video {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.cuisine-type {
+    text-align: center;
+}
+
+.button{
+    background-color: darkgrey;
+    border-color:black;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color:black;
+}
+
+button.expand, .button.expand {
+    padding-left: 0.88889rem;
+    padding-right: 0.88889rem;
+    width: 100%;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+/**********************IDs*******************************/
+
+#back {
+    color:black;
+}
+
+#dessert {
+    color:pink;
+}
+
+#sort-by {
+   
+}
+
+#randomize-all {
     
 }
 
-/************************************************MEDIA QUERY**********************************************/
+
+
+/*******************************MEDIA QUERY*****************************/
 
     
     @media all and (orientation: landscape) {
@@ -29,4 +93,8 @@ h1, h2, h3, h4, h5, h6 {
             display: block;
             margin: 0 auto;
             }
+        
+        #video-player{
+            width:60%;
+        }
     }
