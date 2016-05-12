@@ -82,7 +82,14 @@ $('#video-player').attr('src', getSRC).animate({top:'200px', opacity:1}, functio
 var getIngrediants = randomResultSet.ing.join('<br>');
 $('.ingredients').html("<h3>Ingredients - </h3><p>" + getIngrediants + "</p>")
 
+var currentFilter = location.search;
 
+
+//if $(.again).(function(){
+    //$(this).attr('href', function() {
+    //return this.href + currentFilter;
+    //});
+//});
 
 
 ////////////////////////////////////////////////FUNCTIONS/////////////////////////////////////////
@@ -94,3 +101,4 @@ $(function(){
        });
    });
 });
+
