@@ -1,0 +1,4 @@
+'1 yellow onion, diced', '1 pound ground beef', '½ teaspoon salt', '½ teaspoon pepper', '½ cup tomato sauce', '½ cup ketchup', '2 ½ teaspoons chili powder', '½ teaspoon sugar', '10 hot dogs', '1 can pre-made biscuits', '4 tablespoons butter, melted', '½ teaspoon garlic powder', '2 tablespoons parsley', '1 cup shredded cheddar cheese'
+
+
+find first ^, add ', hit end, add ',  hit crl j to make one line
